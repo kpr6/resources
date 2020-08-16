@@ -1,0 +1,28 @@
+# read params with prompt on the same line
+read -p "Username: " $user
+echo "Username: $user"
+
+# read params silent mode
+read -ps "Password: " $password
+
+# read input as array
+read -pa "users: " $users
+
+# read into anon var
+echo "Enter username: "
+read
+echo "username: $REPLY"
+
+
+# check if file exists
+if [[ -f /path/to/somefile ]]
+then
+  echo "file exists"
+fi
+# check if string is empty
+if [[ -z ${user} ]]
+then
+  echo "string is empty"
+fi
+
+# https://jvns.ca/blog/2017/03/26/bash-quirks/

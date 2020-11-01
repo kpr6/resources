@@ -6,3 +6,6 @@
 
 ### Security
 * [JWT best practises](https://auth0.com/blog/a-look-at-the-latest-draft-for-jwt-bcp)
+
+### GraphQL
+* [How to GraphQL](https://www.howtographql.com)

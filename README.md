@@ -9,3 +9,6 @@
 
 ### GraphQL
 * [How to GraphQL](https://www.howtographql.com)
+
+### Go
+* [Digital Ocean blog posts](https://www.digitalocean.com/community/tutorial_series/how-to-code-in-go)
